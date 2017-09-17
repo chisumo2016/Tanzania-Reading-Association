@@ -1,38 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Creative - Bootstrap 3 Responsive Admin Template">
-    <meta name="author" content="GeeksLabs">
-    <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
-    <link rel="shortcut icon" href="img/favicon.png">
-
-    <title>Creative - Bootstrap Admin Template</title>
-
-    <!-- Bootstrap CSS -->
-    <link href="admin/css/bootstrap.min.css" rel="stylesheet">
-    <!-- bootstrap theme -->
-    <link href="admin/css/bootstrap-theme.css" rel="stylesheet">
-    <!--external css-->
-    <!-- font icon -->
-    <link href="admin/css/elegant-icons-style.css" rel="stylesheet" />
-    <link href="admin/css/font-awesome.min.css" rel="stylesheet" />
-    <!-- full calendar css-->
-    <link href="admin/assets/fullcalendar/fullcalendar/bootstrap-fullcalendar.css" rel="stylesheet" />
-    <link href="admin/assets/fullcalendar/fullcalendar/fullcalendar.css" rel="stylesheet" />
-    <!-- easy pie chart-->
-    <link href="admin/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css" media="screen"/>
-    <!-- owl carousel -->
-    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
-    <link href="admin/css/jquery-jvectormap-1.2.2.css" rel="stylesheet">
-    <!-- Custom styles -->
-    <link rel="stylesheet" href="admin/css/fullcalendar.css">
-    <link href="admin/css/widgets.css" rel="stylesheet">
-    <link href="admin/css/style.css" rel="stylesheet">
-    <link href="admin/css/style-responsive.css" rel="stylesheet" />
-    <link href="admin/css/xcharts.min.css" rel=" stylesheet">
-    <link href="admin/css/jquery-ui-1.10.4.min.css" rel="stylesheet">
+    @include('Admin.partial.head.head')
 
 </head>
 <body>
@@ -40,10 +9,37 @@
 <section id="container" class="">
   @include('admin.partial.header.header')
   @include('admin.partial.sidebar.sidebar')
-  @yield('content')
 
-
+  <!--main content start-->
+      <section id="main-content">
+          <section class="wrapper">
+              <!--overview start-->
+              <div class="row">
+                  <div class="col-lg-12">
+                      <h3 class="page-header"><i class="fa fa-laptop"></i> Dashboard</h3>
+                      <ol class="breadcrumb">
+                          <li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
+                          <li><i class="fa fa-laptop"></i>Dashboard</li>
+                      </ol>
+                  </div>
+              </div>
+          </section>
+          <div class="text-right">
+              <div class="credits">
+                  <!--
+                      All the links in the footer should remain intact.
+                      You can delete the links only if you purchased the pro version.
+                      Licensing information: https://bootstrapmade.com/license/
+                      Purchase the pro version form: https://bootstrapmade.com/buy/?theme=NiceAdmin
+                  -->
+                  <a href="https://bootstrapmade.com/free-business-bootstrap-themes-website-templates/">Tanzania Reading Association</a> by <a href="https://bootstrapmade.com/">Bernard Chisumo</a>
+              </div>
+          </div>
+      </section>
+      <!--main content end-->
 </section>
+
+
 
 <!-- javascripts -->
 <script src="{{ url('admin/js/jquery.js') }}"></script>

@@ -3,18 +3,36 @@
         <div class="row">
             <div class="col-lg-10 mx-auto text-center">
                 <h4>
-                    <strong>TANZANIA READING ASSOCIATION</strong>
+                    <strong>CONTACT US</strong><br><br>
+                    <p>Better yet, see us in person!
+                        <br>
+                          <h5> We love our Members, so feel free to visit during normal business hours.</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <i class="fa fa-envelope-o fa-fw"></i>
+                                <a href="mailto:admin@admin.com">tareading@tareading.com </a>
+                            </li>
+                            <li>
+                                <i class="fa fa-twitter fa-fw"></i>
+                                <a href="mailto:admin@admin.com">Twitter: @ta_reading  </a>
+                            </li>
+                            <li>
+                                <i class="fa fa-instagram fa-fw"></i>
+                                <a href="mailto:admin@admin.com"> @ta_reading </a>
+                            </li>
+
+
+                        </ul>
+                            
                 </h4>
-                <p>14 xxxxxxxxxxxxxxx
-                    <br>Reading, UK RGxx  kkDG</p>
+                          <h4>Tanzania Reading Berkshire Association (TA)Hours</h4> <br>
+                            <h5>We are available 24hrs on Whatsapp , TA-Reading Group</h5>
                 <ul class="list-unstyled">
                     <li>
                         <i class="fa fa-phone fa-fw"></i>
-                        (++44) 000-00000</li>
-                    <li>
-                        <i class="fa fa-envelope-o fa-fw"></i>
-                        <a href="mailto:admin@admin.com">name@admin.com</a>
-                    </li>
+                             (++44) 000-00000</li>
+
                 </ul>
                 <br>
                 <ul class="list-inline">

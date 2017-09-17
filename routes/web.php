@@ -11,14 +11,16 @@
 |
 */
 //
-Route::get('/', function () {
-    return view('Front.news');
-});
+Route::get('/', 'PagesController@getIndex');
 
-Route::get('/post', function (){
 
-    return view('Front.post');
-});
+Route::get('/about', 'PagesController@getAbout')->name('about');
+
+
+//Route::get('/about', 'PagesController@getBlog')->name('blog');
+//Route::get('/about', 'PagesController@getGallery')->name('gallery');
+//Route::get('/about', 'PagesController@getLeader')->name('leader');
+//Route::get('/about', 'PagesController@getMember')->name('member');
 
 // Dashboard
 Route::get('dashboard',function(){

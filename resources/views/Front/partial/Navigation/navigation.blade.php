@@ -14,7 +14,7 @@
             <a class="js-scroll-trigger" href="#top">Home</a>
         </li>
         <li>
-            <a class="js-scroll-trigger" href="#about">About</a>
+            <a class="js-scroll-trigger" href="{{ route('about') }}">About</a>
         </li>
         <li>
             <a class="js-scroll-trigger" href="#leader">Leaders</a>
